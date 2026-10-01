@@ -1,5 +1,3 @@
-# nodejs-demo-app
-
 # Task 1: Node.js CI/CD Pipeline using GitHub Actions
 
 ## Project Overview
@@ -10,70 +8,71 @@ The application is developed using Node.js and Express, containerized using Dock
 
 ## CI/CD Workflow
 
-text
-Node.js Application
-        ↓
-      GitHub
-        ↓
- GitHub Actions
-        ↓
-Install Dependencies
-        ↓
-     Run Tests
-        ↓
-   Build Docker Image
-        ↓
-   Push to Docker Hub
-        ↓
-   Deploy on Render
-        ↓
-Live Web Application
-Technologies Used
-Node.js & Express
-Git & GitHub
-GitHub Actions
-Docker
-Docker Hub
-Render
-Key Features
-Automated CI pipeline using GitHub Actions
-Automated dependency installation and testing
-Docker image creation
-Docker Hub image publishing
-Cloud deployment using Render
-Publicly accessible Node.js application
-Docker Image
+**Node.js Application**  
+↓  
+**GitHub Repository**  
+↓  
+**GitHub Actions**  
+↓  
+**Install Dependencies**  
+↓  
+**Run Tests**  
+↓  
+**Build Docker Image**  
+↓  
+**Push Image to Docker Hub**  
+↓  
+**Deploy on Render**  
+↓  
+**Live Web Application**
 
-adityadev02/nodejs-demo-app:latest
+## Technologies Used
 
-Live Application
+- Node.js & Express
+- Git & GitHub
+- GitHub Actions
+- Docker
+- Docker Hub
+- Render
 
-🚀 View Live Application
+## Key Features
+
+- Automated CI pipeline using GitHub Actions
+- Automated dependency installation and testing
+- Docker image creation
+- Docker Hub image publishing
+- Cloud deployment using Render
+- Publicly accessible Node.js application
+
+## Docker Image
+
+**Repository:** `adityadev02/nodejs-demo-app`
+
+**Tag:** `latest`
+
+## Live Application
+
+[🚀 View Live Application](https://nodejs-demo-app-z66j.onrender.com)
 
 Click the link above to view the deployed Node.js application.
 
-Documentation
+## Documentation
 
 Detailed implementation steps, configuration, screenshots, deployment verification, and CI/CD workflow are available in the project documentation.
 
-📄 View Task 1 Documentation
+[📄 View Task 1 Documentation](documentation/Task_1_CI_CD_Documentation.docx)
 
-Project Structure
-nodejs-demo-app/
-│
-├── app.js
-├── package.json
-├── package-lock.json
-├── Dockerfile
-├── README.md
-│
-├── .github/
-│   └── workflows/
-│       └── main.yml
-│
-└── documentation/
-    └── Task_1_CI_CD_Documentation.docx
-Result
+## Project Structure
+
+- `app.js` — Node.js application
+- `package.json` — Project configuration and dependencies
+- `package-lock.json` — Dependency lock file
+- `Dockerfile` — Docker image configuration
+- `README.md` — Project documentation summary
+- `.github/workflows/main.yml` — GitHub Actions CI/CD workflow
+- `documentation/Task_1_CI_CD_Documentation.docx` — Detailed Task 1 documentation
+
+## Result
 
 The Node.js application was successfully containerized using Docker, integrated with GitHub Actions, pushed to Docker Hub, and deployed on Render.
 
