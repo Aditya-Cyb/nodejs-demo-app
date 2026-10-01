@@ -60,7 +60,7 @@ Click the link above to view the deployed Node.js application.
 
 Detailed implementation steps, configuration, screenshots, deployment verification, and CI/CD workflow are available in the project documentation.
 
-[📄 View Task 1 Documentation](documentation/Task_1_CI_CD_Documentation.docx)
+[📄 View Task 1 Documentation](Task_1_CICD_Documentation_NodeJS.docx)
 
 ## Project Structure
 
