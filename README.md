@@ -10,7 +10,7 @@ The application is developed using Node.js and Express, containerized using Dock
 
 ## CI/CD Workflow
 
-```text
+text
 Node.js Application
         ↓
       GitHub
