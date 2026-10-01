@@ -1,2 +1,3 @@
 # nodejs-demo-app
-Task1
+
+Task 1: Node.js CI/CD Pipeline using GitHub Actions and Docker
